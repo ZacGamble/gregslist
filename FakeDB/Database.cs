@@ -10,7 +10,8 @@ namespace gregslist.FakeDB
     {
         public static List<Car> Cars { get; set; } = new List<Car>()
         {
-            new Car("White", "Ranger", "Ford", 2006, 5000)
+            new Car("White", "Ranger", "Ford", 2006, 5000),
+            new Car("Brown", "Civic", "Honda", 1998, 4200)
         };
     }
 }
